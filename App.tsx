@@ -10,7 +10,7 @@ import {
   AppState, 
   Deliverable 
 } from './types';
-import { generateOpsReport, generateActionDocument } from './geminiService';
+import { generateOpsReport, generateActionDocument } from './openaiService';
 
 const INITIAL_STATE: AppState = {
   projects: [
